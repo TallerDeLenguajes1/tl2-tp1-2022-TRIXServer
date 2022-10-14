@@ -12,7 +12,7 @@ try
     uint litros = uint.Parse(Console.ReadLine());
     System.Console.WriteLine();
     double resultado = kilometros / litros;
-    System.Console.WriteLine($"km/l: " + resultado);
+    System.Console.WriteLine($"Consumo de km/l: " + resultado);
 
 }
 catch (Exception ex)
