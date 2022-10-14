@@ -1,23 +1,20 @@
-﻿
+﻿using System.Net;
+using System.Text.Json;
+
 System.Console.Clear();
-System.Console.WriteLine("--\tCalcular km/l");
+System.Console.WriteLine("--\tProvincias");
 System.Console.WriteLine();
 
-try
-{
-    System.Console.Write("Ingrese los kilometros recorridos: ");
-    uint kilometros = uint.Parse(Console.ReadLine());
-    System.Console.WriteLine();
-    System.Console.Write("Ingrese los litros consumidos: ");
-    uint litros = uint.Parse(Console.ReadLine());
-    System.Console.WriteLine();
-    double resultado = kilometros / litros;
-    System.Console.WriteLine($"Consumo de km/l: " + resultado);
+var functions = new functions();
+rootProvincias provincias = new rootProvincias();
+List<string> nombresProvincias = new List<string>();
 
-}
-catch (Exception ex)
-{
-    var msg = "Error message: " + ex.Message;
-    System.Console.WriteLine(msg);
+provincias = functions.ApiProvincias(provincias);
+
+Console.WriteLine("Provincias argentinas y sus id: ");
+foreach (var item in provincias.provincias)
+{   
+    nombresProvincias.Add(item.nombre);
+    Console.WriteLine(item.nombre + " - " + item.id);
 }
 
