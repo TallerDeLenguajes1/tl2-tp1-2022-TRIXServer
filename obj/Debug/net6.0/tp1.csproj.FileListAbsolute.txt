@@ -1,0 +1,15 @@
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/bin/Debug/net6.0/tp1
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/bin/Debug/net6.0/tp1.deps.json
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/bin/Debug/net6.0/tp1.runtimeconfig.json
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/bin/Debug/net6.0/tp1.dll
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/bin/Debug/net6.0/tp1.pdb
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.csproj.AssemblyReference.cache
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.AssemblyInfoInputs.cache
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.AssemblyInfo.cs
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.csproj.CoreCompileInputs.cache
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.dll
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/refint/tp1.dll
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.pdb
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/tp1.genruntimeconfig.cache
+/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tp1/obj/Debug/net6.0/ref/tp1.dll
