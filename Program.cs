@@ -9,7 +9,7 @@ List<Empleado> list_empleados = new List<Empleado>();
 
 for (int i = 0; i < n; i++)
 {
-    System.Console.WriteLine($"Ingrese la direccion del empleado {i+1}: ");
+    System.Console.WriteLine($"Ingrese la direccion del empleado {i + 1}: ");
     string direccion = Console.ReadLine();
 
     list_empleados.Insert(i, new Empleado(){ Domicilio = direccion} );
