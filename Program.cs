@@ -11,7 +11,7 @@ try
     System.Console.WriteLine($"El cuadrado de {numeroIngresado} es: " + numeroIngresado * numeroIngresado);
 
 }
-catch (System.Exception)
+catch (FormatException ex)
 {
     System.Console.WriteLine("Numero no valido");
 }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tp1.csproj": {}
+    "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tl2-tp1-2022-TRIXServer.csproj": {}
   },
   "projects": {
-    "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tp1.csproj": {
+    "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tl2-tp1-2022-TRIXServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tp1.csproj",
-        "projectName": "tp1",
-        "projectPath": "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tp1.csproj",
+        "projectUniqueName": "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tl2-tp1-2022-TRIXServer.csproj",
+        "projectName": "tl2-tp1-2022-TRIXServer",
+        "projectPath": "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/tl2-tp1-2022-TRIXServer.csproj",
         "packagesPath": "/Users/trix/.nuget/packages/",
         "outputPath": "/Users/trix/Library/Mobile Documents/com~apple~CloudDocs/facet/taller 2/tl2-tp1-2022-TRIXServer/obj/",
         "projectStyle": "PackageReference",
