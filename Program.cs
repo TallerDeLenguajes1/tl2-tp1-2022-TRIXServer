@@ -1,17 +1,18 @@
 ﻿
 System.Console.Clear();
-System.Console.WriteLine("--\tDividir dos numeros");
+System.Console.WriteLine("--\tCalcular km/l");
 System.Console.WriteLine();
-System.Console.Write("Ingrese el primer numero: ");
-int numeroUno = int.Parse(Console.ReadLine());
-System.Console.WriteLine();
-System.Console.Write("Ingrese el segundo numero: ");
-int numeroDos = int.Parse(Console.ReadLine());
 
 try
 {
+    System.Console.Write("Ingrese los kilometros recorridos: ");
+    uint kilometros = uint.Parse(Console.ReadLine());
     System.Console.WriteLine();
-    System.Console.WriteLine($"{numeroUno} / {numeroDos} = " + numeroUno / numeroDos);
+    System.Console.Write("Ingrese los litros consumidos: ");
+    uint litros = uint.Parse(Console.ReadLine());
+    System.Console.WriteLine();
+    double resultado = kilometros / litros;
+    System.Console.WriteLine($"km/l: " + resultado);
 
 }
 catch (Exception ex)
