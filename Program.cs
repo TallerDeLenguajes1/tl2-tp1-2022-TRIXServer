@@ -16,7 +16,6 @@ for (int i = 0; i < n; i++)
 
 }
 
-
 for (int i = 0; i < n; i++)
 {
     list_empleados[i].mostrarUnEmpleado(list_empleados[i]);
