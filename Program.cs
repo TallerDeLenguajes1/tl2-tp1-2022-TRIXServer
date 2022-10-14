@@ -2,19 +2,24 @@
 using System.Text.Json;
 
 System.Console.Clear();
-System.Console.WriteLine("--\tProvincias");
-System.Console.WriteLine();
+System.Console.WriteLine("Ingrese la cantidad de empleados que desea ingresar: ");
+int n = Convert.ToInt32(Console.ReadLine());
 
-var functions = new functions();
-rootProvincias provincias = new rootProvincias();
-List<string> nombresProvincias = new List<string>();
+List<Empleado> list_empleados = new List<Empleado>();
 
-provincias = functions.ApiProvincias(provincias);
+for (int i = 0; i < n; i++)
+{
+    System.Console.WriteLine($"Ingrese la direccion del empleado {i+1}: ");
+    string direccion = Console.ReadLine();
 
-Console.WriteLine("Provincias argentinas y sus id: ");
-foreach (var item in provincias.provincias)
-{   
-    nombresProvincias.Add(item.nombre);
-    Console.WriteLine(item.nombre + " - " + item.id);
+    list_empleados.Insert(i, new Empleado(){ Domicilio = direccion} );
+
 }
 
+
+for (int i = 0; i < n; i++)
+{
+    list_empleados[i].mostrarUnEmpleado(list_empleados[i]);
+    list_empleados[i].mostrarInfoAdicional(list_empleados[i]);
+    
+}
