@@ -31,9 +31,9 @@ public class functions
                 }
             }
         }
-        catch (WebException excepcion)
+        catch (WebException ex)
         {
-            Console.WriteLine("Error al conectar a la API!!!");
+            Console.WriteLine($"Error al conectar a {url}");
         }
 
         return provinciasDeserializado;
